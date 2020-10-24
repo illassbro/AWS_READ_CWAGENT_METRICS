@@ -76,7 +76,7 @@ java -cp ".:${CLASSPATH}" ${CLASS}
 @MAIN
 [[ VERIFY IF CLOUDWATCH AGENT IS SENDING DATA ]]
 
-Used this to Get a Metric to see if Instance is set up to Send Data properly from the install Cloudwatch Agent.
+Used this to Get a Metric to see if Instnace is set up to Send Data properly from the install Cloudwatch Agent.
 
 #         Metric met = Metric.builder()
 #                   .metricName("DiskReadBytes") => CPUUtilization
